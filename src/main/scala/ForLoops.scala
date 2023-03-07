@@ -1,6 +1,12 @@
 object ForLoops extends App{
-  for(w<- 0 to 10)
+
+  //Even Numbers
+  var  x = 10
+  for(w<- 0 until  x)
     {
-      println(w)
+      if(w%2==0)
+        {
+          println(w)
+        }
     }
 }
